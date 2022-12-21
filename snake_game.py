@@ -85,27 +85,6 @@ def draw_bricks(bricks):
         pygame.draw.rect(screen, red, pygame.Rect(brick[0], brick[1], brick_size, brick_size))
 
 # Create a function to create the bricks
-#def create_bricks():
-#    for i in range(10):
-#        x = random.randrange(5, (window_size[0]//brick_size)-1) * brick_size
-#        y = random.randrange(5, (window_size[1]//brick_size)-1) * brick_size
-#        bricks.append([x, y])
-
-# Create a function to create the bricks
-#def create_bricks():
-#    # Create a brick at the top left corner
-#    bricks.append([0, 0])
-
-#    # Create a brick at the top right corner
-#    bricks.append([window_size[0] - brick_size, 0])
-
-#    # Create a brick at the bottom left corner
-#    bricks.append([0, window_size[1] - brick_size])
-
-#    # Create a brick at the bottom right corner
-#    bricks.append([window_size[0] - brick_size, window_size[1] - brick_size])
-
-# Create a function to create the bricks
 def create_bricks():
     # Set the gap size
     gap_size = 20
